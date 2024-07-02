@@ -1,0 +1,194 @@
+/* main body */
+.main-body{
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+.notification{
+    /* height: 10px; */
+    align-items: center;
+    text-align: center;
+}
+.main-right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+    width: 50%;
+    
+}
+.main-right h1{
+    font-size: 2.5rem;
+    position:static;
+    font-weight: bold;
+}
+.main-right p{
+    font-weight: 600;
+    font-size: 1.32rem;
+    color: rgb(126, 128, 129);
+    padding-bottom: 2em;
+}
+.main-right-below{
+    border-left: 2px solid rgb(104, 101, 101);
+
+}
+.main-right-button{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.main-right-button button{
+    padding: 1em;
+}
+.profile-icons{
+    padding:1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    
+}
+.profile-icons i{
+    color: rgb(247, 80, 108);
+    border: 4px solid rgb(248, 99, 124);
+    padding: 0.4em;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.students-count h3{
+    color: rgb(68, 67, 67);
+}
+
+
+/* What is Unsway */
+.about-unsway{
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.what-left{
+    margin: auto;
+    width: 50%;
+}
+.what-left p{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(126, 128, 129);
+}
+
+
+/* features */
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+.features img{
+    height: 9em;
+}
+.features div p{
+    padding: 0;
+    margin:0 8em;
+}
+.features div h1{
+    line-height: 0cm;
+   list-style: none;
+}
+
+/* Testimonials */
+.testimonial{
+    margin-top: 1.5em;
+    padding: 1em;
+}
+
+.cards{
+    display: flex;
+    gap: 1.4em;
+    overflow-x: scroll;
+    scrollbar-width: none;
+
+}
+.card{
+    min-width: 18em ;
+
+}
+
+/* founder */
+
+
+
+@media screen and (max-width: 700px) {
+   .main-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1em 0.6em;
+   }
+   .main-right{
+    width: 100%;
+   }
+   .main-right h1{
+    font-size: 1.9rem;
+   }
+   .main-right h2{
+    font-size: 1.5rem;
+   }
+   .main-right h3{
+    font-size: 1rem;
+   }
+   .main-right-below{
+    border: none;
+   }
+   .main-right button{
+    padding: 0.4em;
+   }
+
+
+   .features{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .profile-icons i{
+    font-size: 1em;
+   }
+
+
+
+   /* About */
+   .about-unsway{
+    display: flex;
+    flex-direction: column-reverse;
+    
+    
+   }
+   .about-unsway h1{
+    font-size: 1.8em;
+   }
+    .what-left{
+    width: 100%;
+   }
+
+
+   /* Features- */
+   .features{
+    width: 100%;
+   }
+   .features div p{
+    padding: 0;
+    margin:1em 2em;
+    }
+
+
+    /* testimonial */
+    .testimonial h1{
+        font-size: 1.9em;
+    }
+
+  }
