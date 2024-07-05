@@ -1,6 +1,6 @@
 body {
     
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: Georgia
     
 }
 
@@ -14,11 +14,14 @@ body {
     position: sticky;
     top: 0;
     
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
     backdrop-filter: blur(10px); /* Apply the blur effect */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000; 
     
+}
+.navbar-item{
+    color: white;
 }
 
 .logo{
@@ -42,12 +45,16 @@ body {
     } */
      .navbar{
         padding: 0 2em;
+        min-height: fit-content;
+        justify-content: center;
+        align-items: center;
      }
     .mobile-nav{
-        background-color: rgba(235, 227, 227, 0.8);
+        transition: all ease-in-out 1s;
+        background-color: rgba(19, 18, 18, 0.8);
         position: sticky;
         right: 0px;
-        top: 5em;
+        top: 3em;
         display: block;
         text-align: right;
         padding-right: 2em;

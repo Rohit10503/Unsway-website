@@ -1,13 +1,33 @@
+/* upperdir */
+.upperdir a{
+    position:fixed ;
+    bottom: 1.5em;
+    right: 1.5em;
+    z-index: 3;
+    background-color: rgb(54, 53, 53);
+    padding: 0.8em;
+    color: white;
+    text-decoration: none;
+    border-radius: 3em;
+    transition: all ease-in-out 1s;
+}
+
 /* main body */
+
 .main-body{
     padding: 1em;
     display: flex;
     justify-content: space-around;
 }
 .notification{
+    background-color: aliceblue;
     /* height: 10px; */
+    margin-bottom: 1em;
     align-items: center;
     text-align: center;
+}
+#notification{
+    margin :0em;
 }
 .main-right{
     display: flex;
@@ -104,7 +124,7 @@
 /* Testimonials */
 .testimonial{
     margin-top: 1.5em;
-    padding: 1em;
+    padding: 3em;
 }
 
 .cards{
@@ -120,8 +140,33 @@
 }
 
 /* founder */
+/* contactus */
+.contactus{
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.contact-right .field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+.contact-right .field div {
+    width: 100%;
+}
+.contact-right .field select{
+    width:100%
+}
 
+/* footer */
+.footer{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
 
 @media screen and (max-width: 700px) {
    .main-body{
@@ -187,8 +232,17 @@
 
 
     /* testimonial */
+    .testimonial{
+        padding: 1em;
+    }
     .testimonial h1{
         font-size: 1.9em;
+        
+    }
+    /* contact us */
+    .contactus{
+        display: flex;
+        flex-direction: column;
     }
 
   }
